@@ -27,3 +27,7 @@ window.onclick = function (e) {
     }, 500)
   }
 }
+
+hamburguerBtn.addEventListener('click', openModalMenu)
+
+closeModalBtn.addEventListener('click', closeModalMenu)
